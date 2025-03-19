@@ -3,6 +3,9 @@ import whisper
 import openai
 import subprocess
 
+
+
+
 openai.api_key = "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"  # Replace with your OpenAI API Key
 
 def extract_audio(video_path, audio_path="audio.wav"):
